@@ -1,0 +1,16 @@
+<div class="border p-1 rounded">
+  <div class="row">
+    <h2 class="bg-primary p-2 rounded text-white"> Job Title: {{ job['title'] }}</h2>
+    <div class="col-md-9 border">
+      
+      <p class="my-4"><b>Location:</b> {{ job['location'] }}</p>
+      {% if 'salary' in job %}
+        <p><b>Salary:</b> {{ job['salary'] }}</p>
+      {% endif %}
+    </div>
+    <div class="col-md-3 border justify-content-end">
+      <button class="btn btn-outline-primary">Apply</button>
+    </div>
+  </div>
+  
+</div>

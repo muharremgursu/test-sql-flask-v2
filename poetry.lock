@@ -87,6 +87,16 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "jsonify"
+version = "0.5"
+description = "A csv to json converter"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jsonify-0.5.tar.gz", hash = "sha256:f340032753577575e9777835809b283fdc9b251867d5d5600389131647f8bfe1"},
+]
+
+[[package]]
 name = "markupsafe"
 version = "2.1.4"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -175,4 +185,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "1c70c26649b0635e185ca56ffbe222e32d5aac6d01e01a236a812f73dd5b0eb9"
+content-hash = "5b712a95140c242c68a2a95c327dec2ac7a375bb8fd3912eb3ece7e80e858a56"

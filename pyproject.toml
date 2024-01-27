@@ -9,6 +9,7 @@ packages = [{include = "repl_nix_test_sql_flask"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.1"
+jsonify = "^0.5"
 
 
 [build-system]
