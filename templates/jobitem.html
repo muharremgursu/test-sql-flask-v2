@@ -1,11 +1,13 @@
-<div class="border p-1 rounded">
+<div class="border p-1">
   <div class="row">
-    <h2 class="bg-primary p-2 rounded text-white"> Job Title: {{ job['title'] }}</h2>
+    <h2 class="bg-primary p-2 text-white"> Job Title: {{ job['title'] }}</h2>
     <div class="col-md-9 border">
       
       <p class="my-4"><b>Location:</b> {{ job['location'] }}</p>
+      <p class="my-4"><b>Responsibilities:</b> {{ job['responsilities'] }}</p>
+      <p class="my-4"><b>Requirements:</b> {{ job['requirements'] }}</p>
       {% if 'salary' in job %}
-        <p><b>Salary:</b> {{ job['salary'] }}</p>
+        <p><b>Salary:</b> {{ job['salary'] }} {{job['currency']}}</p>
       {% endif %}
     </div>
     <div class="col-md-3 border justify-content-end">

@@ -10,6 +10,7 @@ packages = [{include = "repl_nix_test_sql_flask"}]
 python = "^3.10"
 flask = "^3.0.1"
 jsonify = "^0.5"
+sqlalchemy = "^2.0.25"
 
 
 [build-system]
